@@ -1,0 +1,98 @@
+header{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    border-bottom: 10px double blue;
+    padding: 9px;
+    justify-content: center;
+}
+.myheader{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.mylogo{
+    border: 5px double black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 4px 1px 5px black;
+}
+.mytitle{
+    font-size: 30px;
+    color: red;
+    font-weight: 700;
+    margin-left: 10px;
+    text-shadow: 4px 2px 2px black;
+}
+.posRelative{
+    border: 2px solid red;
+    width: 200px;
+    height: 50px;
+    left: 34px;
+    top: 32px;
+    position: relative;
+}
+.parent{
+    border: 2px solid red;
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    color: blue;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+.child{
+    border: 2px solid red;
+    width: 121px;
+    background-color: gray;
+    font-size: 20px;
+    color: wheat;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+.fixedPro{
+    border: 5px solid brown;
+    width: 50px;
+    height: 159px;
+    background-color: brown;
+    position: fixed;
+    right: 0px;
+    top: 300px;
+}
+
+.stickyPro{
+    border: 2px solid brown;
+    text-align: center;
+    background-color: lightblue;
+    color: red;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    z-index: -1;
+
+}
+.container div{
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    background-color: lightcoral;
+    font-size: 27px;
+    border-radius: 13px;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.container div img{
+    width: 150px;
+    height: 60px;
+}
